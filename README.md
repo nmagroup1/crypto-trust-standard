@@ -2,15 +2,15 @@
 
 **A unified four-layer safety framework for cryptocurrency projects.**
 
-> *The tools to prevent crypto scams already exist — separately. What doesn't exist is a single enforceable standard that coins must pass before going to market. This is that standard.*
+> *The tools to prevent crypto scams already exist — separately. What doesn't exist is a single bundled framework that exchanges can require before listing. CTS is our proposed answer to that gap.*
 
 ---
 
 ## Overview
 
-The Crypto Trust Standard (CTS) is an open initiative published and maintained by [NMA Consulting Group](https://nmaconsultinggroup.com) — a verifiable safety framework for cryptocurrency projects that any exchange can adopt and enforce as a listing requirement.
+The Crypto Trust Standard (CTS) is an open framework published by [NMA Consulting Group](https://nmaconsultinggroup.com) — a research-based proposal for a verifiable safety standard that any exchange can choose to adopt as a listing requirement.
 
-The crypto market loses **$10 billion+ per year** to fraud — not because the blockchain hides it, but because no entity has bundled the available protections into a single enforced standard that exchanges require before listing.
+The crypto market loses **$10 billion+ per year** to fraud — not because the blockchain hides it, but because no one has bundled the available protections into a single framework that exchanges can point to when making listing decisions.
 
 This repository contains:
 - The full CTS Whitepaper (v1.0)
@@ -23,18 +23,18 @@ This repository contains:
 
 ## The Four Layers
 
-The CTS framework defines four layers every compliant coin must satisfy. There are no partial badges, no waivers.
+The CTS framework proposes four layers a participating coin satisfies to earn the Trust Badge. The badge is all-or-nothing — no partial credit.
 
-| Layer | Name | Solves | Minimum Requirement |
+| Layer | Name | Solves | Specification |
 |-------|------|--------|---------------------|
 | **L1** | Liquidity Lock | Rug Pull | Founder tokens locked 24+ months in non-upgradeable VestingVault; max 4%/month release |
 | **L2** | Anti-Whale Enforcement | Pump & Dump | No wallet >1% of supply; 0.25% daily sell cap per wallet; requires 67% governance vote to modify |
-| **L3** | On-Chain Verification | Fake Platforms | All balance displays must source live from blockchain via signed RPC; no private database balances |
-| **L4** | Cryptographic Endorsement Registry | Fake Celebrity Scams | Promoters must register identity via zk-proof KYC; all promotional content must be wallet-signed |
+| **L3** | On-Chain Verification | Fake Platforms | All balance displays source live from blockchain via signed RPC; no private database balances |
+| **L4** | Cryptographic Endorsement Registry | Fake Celebrity Scams | Promoters register identity via zk-proof KYC; all promotional content is wallet-signed |
 
 ---
 
-## The Problem We're Solving
+## The Problem We're Addressing
 
 | Scam Type | Annual Loss | How It Works |
 |-----------|-------------|--------------|
@@ -49,12 +49,12 @@ The CTS framework defines four layers every compliant coin must satisfy. There a
 
 | Tool | What It Does | What's Missing |
 |------|-------------|----------------|
-| Unicrypt / Team.Finance | Liquidity locking | Voluntary, unenforced, no exchange mandate |
+| Unicrypt / Team.Finance | Liquidity locking | Voluntary, not bundled with other protections |
 | CertiK / Hacken | Smart contract audits | Checks code correctness, not scam-resistance; one-time, not ongoing |
-| ENS Domains | Wallet identity names | No real-world ID verification, no signing enforcement |
+| ENS Domains | Wallet identity names | No real-world ID verification, no signing requirement |
 | Anti-whale mechanisms | Supply controls in some coins | Non-standard, removable by founders, inconsistent |
 
-**The gap:** No single entity has bundled all four protections into one enforceable standard with an exchange mandate behind it.
+**The gap:** No one has bundled all four protections into a single framework that exchanges can point to as a listing benchmark. CTS is our proposed solution to that gap.
 
 ---
 
@@ -63,10 +63,10 @@ The CTS framework defines four layers every compliant coin must satisfy. There a
 Under the CTS framework, a coin earns the Trust Badge by:
 
 1. Deploying using the CTS Token Template (open-source, non-upgradeable)
-2. Passing an independent code audit confirming all four layers are active
+2. Completing an independent code audit confirming all four layers are active
 3. Registering all named founders in the on-chain identity registry
 4. Registering all balance-display platforms with signed attestation keys
-5. Passing quarterly automated on-chain re-verification
+5. Completing quarterly automated on-chain re-verification
 
 The badge is **binary** — earned or not. It will be recorded on-chain in the `TrustRegistry` contract and queryable via public API. The verification platform is currently in development.
 
@@ -99,16 +99,16 @@ Coins will be scored 0–4 based on how many layers they currently satisfy. The 
 |-------|----------|-----------|
 | **1 — Credibility** | Months 1–4 | Whitepaper public; 20 coins scored; SEC submission |
 | **2 — Platform** | Months 4–8 | TrustRegistry deployed; verification API live; first certifications |
-| **3 — Exchange Partner** | Months 8–14 | First exchange commits to displaying the badge; 20+ compliant coins |
+| **3 — Exchange Partner** | Months 8–14 | First exchange commits to displaying the badge; 20+ participating coins |
 | **4 — Scale** | Months 14–18 | Coinbase / Binance outreach; MiCA engagement; 100+ coins; $1M ARR |
 
 ---
 
 ## Who This Is For
 
-**Exchange compliance teams** — if your team spends resources on coin-by-coin listing decisions, the CTS framework is infrastructure that could systematize that decision. We want to understand what your compliance process would need from a standard to rely on it.
+**Exchange compliance teams** — if your team spends resources on coin-by-coin listing decisions, the CTS framework is a proposed benchmark that could help systematize that process. We want to understand what your compliance process would need from a framework like this.
 
-**Crypto projects & founders** — if you are building a legitimate coin and struggling to differentiate yourself from scammers, we want to hear from you. Early participants will help shape the standard before it is finalized.
+**Crypto projects & founders** — if you are building a legitimate coin and struggling to differentiate yourself from scammers, we want to hear from you. Early participants will help shape the framework before it is finalized.
 
 **Regulators & policy teams** — if you are writing crypto safety rules and want an industry-originated framework to reference, this whitepaper is the starting point for that conversation.
 
@@ -118,7 +118,7 @@ Coins will be scored 0–4 based on how many layers they currently satisfy. The 
 
 ## Get Involved
 
-- **Discuss the standard:** Open a [Discussion](../../discussions) with questions, objections, or proposed amendments
+- **Discuss the framework:** Open a [Discussion](../../discussions) with questions, objections, or proposed amendments
 - **Review the whitepaper:** Open an [Issue](../../issues) with specific feedback on any section
 - **Contribute to the spec:** See `CONTRIBUTING.md` (coming soon)
 - **Contact NMA directly:** [crypto-trust@nmaconsultinggroup.com](mailto:crypto-trust@nmaconsultinggroup.com)
@@ -127,11 +127,11 @@ Coins will be scored 0–4 based on how many layers they currently satisfy. The 
 
 ## Background
 
-The Crypto Trust Standard was developed and published in September 2026 by **NMA Consulting Group**, a management consulting firm focused on operational strategy and emerging technology. The framework emerged from a simple observation: every tool needed to prevent the four dominant scam types already exists — what's missing is the mandate and the bundle.
+The Crypto Trust Standard was developed and published in September 2026 by **NMA Consulting Group**, a management consulting firm focused on operational strategy and emerging technology. The framework emerged from a simple observation: every tool needed to prevent the four dominant scam types already exists — what's missing is a single bundled framework the industry can rally around.
 
 NMA Consulting Group publishes and maintains the CTS as an open framework. It is not a coin. It does not issue tokens.
 
-The operational platform behind the CTS — the TrustRegistry smart contract, the trust badge issuance system, and the certification infrastructure — is operated by **CASHFLOW IQ**, the registered entity that runs and enforces the standard. The framework is open; the platform is the business.
+The operational platform behind the CTS — the TrustRegistry smart contract, the trust badge issuance system, and the verification infrastructure — is developed by **CASHFLOW IQ**, the entity building the tooling that makes the framework verifiable. The framework is open; the platform is the business.
 
 ---
 

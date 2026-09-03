@@ -127,7 +127,7 @@ Coins will be scored 0–4 based on how many layers they currently satisfy. The 
 
 ## Background
 
-The Crypto Trust Standard was developed and published in September 2026 by **NMA Consulting Group**, a management consulting firm focused on operational strategy and emerging technology. The framework emerged from a simple observation: every tool needed to prevent the four dominant scam types already exists — what's missing is a single bundled framework the industry can rally around.
+NMA Consulting Group is a management consulting firm focused on operational strategy and emerging technology. In September 2026, after researching the existing cryptocurrency safety ecosystem and finding no bundled framework addressing the four dominant scam types, NMA proposed the Crypto Trust Standard as an open solution — a framework the industry can rally around, available for any exchange to adopt.
 
 NMA Consulting Group publishes and maintains the CTS as an open framework. It is not a coin. It does not issue tokens.
 

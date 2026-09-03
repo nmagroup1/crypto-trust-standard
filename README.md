@@ -127,7 +127,7 @@ Coins are scored 0–4 based on how many layers they currently satisfy. The scor
 
 ## Background
 
-This standard was originated in September 2026 by **Shamz** at **NMA Consulting Group**, a minority-owned consulting firm with four years of government contracting experience. The idea emerged from a simple observation: every tool needed to prevent the four dominant scam types already exists — what's missing is the mandate and the bundle.
+This standard was originated in September 2026 by Shamz at NMA Consulting Group, a management consulting firm focused on operational strategy and emerging technology. The idea emerged from a simple observation: every tool needed to prevent the four dominant scam types already exists what's missing is the mandate and the bundle.
 
 NMA Consulting Group is the founding organisation of the Crypto Trust Standard. It is not a coin. It does not issue tokens. It certifies projects against a safety standard.
 

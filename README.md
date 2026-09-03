@@ -8,7 +8,7 @@
 
 ## Overview
 
-The Crypto Trust Standard (CTS) is an open initiative published and maintained by [NMA Consulting Group](https://nmaconsultinggroup.com) — a mandatory, verifiable safety framework for cryptocurrency projects.
+The Crypto Trust Standard (CTS) is an open initiative published and maintained by [NMA Consulting Group](https://nmaconsultinggroup.com) — a verifiable safety framework for cryptocurrency projects that any exchange can adopt and enforce as a listing requirement.
 
 The crypto market loses **$10 billion+ per year** to fraud — not because the blockchain hides it, but because no entity has bundled the available protections into a single enforced standard that exchanges require before listing.
 

@@ -8,7 +8,7 @@
 
 ## Overview
 
-The Crypto Trust Standard (CTS) is an open initiative originated by [NMA Consulting Group](https://nmaconsultinggroup.com) to define a mandatory, verifiable safety framework for cryptocurrency projects.
+The Crypto Trust Standard (CTS) is an open initiative published and maintained by [NMA Consulting Group](https://nmaconsultinggroup.com) — a mandatory, verifiable safety framework for cryptocurrency projects.
 
 The crypto market loses **$10 billion+ per year** to fraud — not because the blockchain hides it, but because no entity has bundled the available protections into a single enforced standard that exchanges require before listing.
 
@@ -127,9 +127,9 @@ Coins will be scored 0–4 based on how many layers they currently satisfy. The 
 
 ## Background
 
-This standard was originated in September 2026 by **Shamz** at **NMA Consulting Group**, a management consulting firm focused on operational strategy and emerging technology. The idea emerged from a simple observation: every tool needed to prevent the four dominant scam types already exists — what's missing is the mandate and the bundle.
+The Crypto Trust Standard was developed and published in September 2026 by **NMA Consulting Group**, a management consulting firm focused on operational strategy and emerging technology. The framework emerged from a simple observation: every tool needed to prevent the four dominant scam types already exists — what's missing is the mandate and the bundle.
 
-NMA Consulting Group is the founding organization of the Crypto Trust Standard. It is not a coin. It does not issue tokens. It publishes and maintains the framework.
+NMA Consulting Group publishes and maintains the CTS as an open framework. It is not a coin. It does not issue tokens.
 
 The operational platform behind the CTS — the TrustRegistry smart contract, the trust badge issuance system, and the certification infrastructure — is operated by **CASHFLOW IQ**, the registered entity that runs and enforces the standard. The framework is open; the platform is the business.
 

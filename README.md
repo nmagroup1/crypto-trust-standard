@@ -8,7 +8,7 @@
 
 ## Overview
 
-The Crypto Trust Standard (CTS) is an open framework published by [NMA Consulting Group](https://nmaconsultinggroup.com) — a research-based proposal for a verifiable safety standard that any exchange can choose to adopt as a listing requirement.
+The Crypto Trust Standard (CTS) is a research-based proposal from [NMA Consulting Group](https://nmaconsultinggroup.com) — an open, verifiable safety framework that any exchange can choose to adopt as a listing requirement.
 
 The crypto market loses **$10 billion+ per year** to fraud — not because the blockchain hides it, but because no one has bundled the available protections into a single framework that exchanges can point to when making listing decisions.
 
@@ -127,9 +127,9 @@ Coins will be scored 0–4 based on how many layers they currently satisfy. The 
 
 ## Background
 
-NMA Consulting Group is a management consulting firm focused on operational strategy and emerging technology. In September 2026, after researching the existing cryptocurrency safety ecosystem and finding no bundled framework addressing the four dominant scam types, NMA proposed the Crypto Trust Standard as an open solution — a framework the industry can rally around, available for any exchange to adopt.
+**NMA Consulting Group** is a management consulting firm focused on operational strategy and emerging technology. In September 2026, after researching the existing cryptocurrency safety ecosystem and finding no bundled framework addressing the four dominant scam types, NMA proposed the Crypto Trust Standard — an open framework the industry can rally around, available for any exchange to adopt.
 
-NMA Consulting Group publishes and maintains the CTS as an open framework. It is not a coin. It does not issue tokens.
+NMA researches and maintains the CTS as an open framework. It is not a coin. It does not issue tokens.
 
 The operational platform behind the CTS — the TrustRegistry smart contract, the trust badge issuance system, and the verification infrastructure — is developed by **CASHFLOW IQ**, the entity building the tooling that makes the framework verifiable. The framework is open; the platform is the business.
 
